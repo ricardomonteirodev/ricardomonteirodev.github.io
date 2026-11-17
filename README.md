@@ -2,7 +2,7 @@
 
 Repositório oficial do meu portfólio web, desenvolvido para apresentar minhas soluções digitais, sistemas de gestão e landing pages focadas em regras de negócio reais, desempenho e experiência do usuário.
 
-🔗 **Acesse o portfólio online:** [Clique aqui para visualizar o site no ar](https://github.io)
+🔗 **Acesse o portfólio online:** [Clique aqui para visualizar o site no ar]([https://github.io](https://ricardomonteirodev.github.io/)
 
 ---
 

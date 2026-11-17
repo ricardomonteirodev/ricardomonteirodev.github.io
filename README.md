@@ -41,4 +41,4 @@ Desenvolvido por **Ricardo Monteiro Borges**
 *Formado em Desenvolvimento Web | Experiência em Logística, Faturamento e Setor Automotivo*
 
 * 📧 **E-mail:** [ricardomonteirow@gmail.com](mailto:ricardomonteirow@gmail.com)
-* 📱 **WhatsApp:** [(62) 9 8261-4765](https://wa.me.)
+* 📱 **WhatsApp:** [(62) 9 8261-4765](https://wa.me)

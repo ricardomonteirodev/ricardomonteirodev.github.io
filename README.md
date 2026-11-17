@@ -8,8 +8,8 @@ Bem-vindo ao repositório do meu portfólio profissional! Este projeto reúne mi
 
 ## 🚀 Projetos em Destaque
 
-### 1. Controle de Estoque — Autopeças (Mini-ERP)
-Sistema completo de gestão comercial e fiscal para lojas de autopeças, com integração em tempo real entre compras, vendas, estoque, fluxo de caixa e emissão de notas fiscais fictícias (DANFE).
+### 1. Controle de Estoque — Autopeças (Mini-ERP & Fiscal)
+Sistema completo de gestão comercial e fiscal para lojas de autopeças, com integração em tempo real entre compras, vendas, estoque, fluxo de caixa e emissão de notas fiscais fictícias (DANFE) com cálculo de ICMS "por dentro".
 * **Tecnologias:** HTML5, CSS3, JavaScript ES6, LocalStorage.
 
 ### 2. Auto Peças & Mecânica RM
@@ -19,10 +19,16 @@ Landing page comercial desenvolvida para conversão rápida de clientes, contand
 ---
 
 ## 🛠️ Tecnologias & Ferramentas
-* **Front-end:** HTML5, CSS3, JavaScript (ES6+), DOM Manipulation.
+* **Front-end:** HTML5, CSS3, JavaScript (ES6+), Manipulação de DOM.
 * **Versionamento & Deploy:** Git, GitHub, GitHub Pages, Cloudflare Pages.
 
 ---
 
 ## 📫 Contato
-* **GitHub:** [@ricardomonteirodev](https://github.com)
+
+Entre em contato para oportunidades, projetos freelance ou dúvidas:
+
+* 📱 **WhatsApp:** [(62) 9 8261-4765](https://wa.me.)
+* 📧 **E-mail:** [ricardomonteirow@gmail.com](mailto:ricardomonteirow@gmail.com)
+* 💻 **Portfólio:** [ricardomonteirodev.github.io](https://github.io)
+* 🐙 **GitHub:** [@ricardomonteirodev](https://github.com)

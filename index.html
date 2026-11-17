@@ -3,64 +3,284 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Auto Peças & Mecânica RM</title>
-  <meta name="description" content="Auto Peças e Mecânica RM em Goiânia. Peças automotivas nacionais e importadas com orçamento rápido pelo WhatsApp." />
-<meta name="keywords" content="auto peças goiania, peças automotivas, mecanica rm, orçamento auto peças" />
-<link rel="stylesheet" href="style.css" />
+  <title>Ricardo Monteiro | Desenvolvedor Web & Logística</title>
+  <meta name="description" content="Portfólio de Ricardo Monteiro Borges. Desenvolvedor Web em Goiânia com experiência em sistemas comerciais, ERP TOTVS e soluções para autopeças." />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #0b1120;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      border-radius: 12px;
+      border: 1px solid #334155;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      color: #38bdf8;
+      margin-bottom: 8px;
+    }
+
+    header p.subtitulo {
+      font-size: 18px;
+      color: #cbd5e1;
+      margin-bottom: 16px;
+    }
+
+    header p.resumo {
+      max-width: 650px;
+      margin: 0 auto 24px;
+      color: #94a3b8;
+      font-size: 15px;
+    }
+
+    .botoes-contato {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 14px;
+      transition: opacity 0.2s;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    .btn-whats {
+      background-color: #25d366;
+      color: #ffffff;
+    }
+
+    .btn-github {
+      background-color: #334155;
+      color: #ffffff;
+    }
+
+    .btn-email {
+      background-color: #0284c7;
+      color: #ffffff;
+    }
+
+    h2.secao-titulo {
+      font-size: 22px;
+      color: #f8fafc;
+      border-left: 4px solid #38bdf8;
+      padding-left: 12px;
+      margin-bottom: 20px;
+    }
+
+    .grid-projetos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .card-projeto {
+      background-color: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card-projeto h3 {
+      color: #38bdf8;
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+
+    .card-projeto p {
+      color: #cbd5e1;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    .tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .tag {
+      background-color: #0f172a;
+      color: #38bdf8;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      border: 1px solid #1e3a8a;
+    }
+
+    .links-projeto {
+      display: flex;
+      gap: 10px;
+    }
+
+    .links-projeto a {
+      flex: 1;
+      text-align: center;
+      text-decoration: none;
+      padding: 8px;
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .link-demo {
+      background-color: #0284c7;
+      color: #ffffff;
+    }
+
+    .link-codigo {
+      background-color: #334155;
+      color: #e2e8f0;
+    }
+
+    .skills-box {
+      background-color: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 24px;
+      margin-bottom: 40px;
+    }
+
+    .skills-lista {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .skill-item {
+      background-color: #0f172a;
+      color: #e2e8f0;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      border: 1px solid #475569;
+    }
+
+    footer {
+      text-align: center;
+      color: #64748b;
+      font-size: 13px;
+      padding-top: 20px;
+      border-top: 1px solid #1e293b;
+    }
+  </style>
 </head>
 <body>
 
-  <header class="topo">
-    <h1>Auto Peças & Mecânica RM</h1>
-    <p>Peças nacionais e importadas com entrega rápida em Goiânia e região.</p>
-<div id="statusLoja" class="status-badge">Verificando horário...</div>
-<p class="horario-funcionamento">Seg a Sex: 08h às 18h | Sáb: 08h às 12h</p>
+  <div class="container">
+    <header>
+      <h1>Ricardo Monteiro Borges</h1>
+      <p class="subtitulo">Desenvolvedor Web | Especialista em Processos de Autopeças & Logística</p>
+      <p class="resumo">
+        Formado em Desenvolvimento Web (2025) com mais de 5 anos de experiência prática em rotinas logísticas, fiscais e comerciais nos setores de autopeças (3 anos e 11 meses em ERP Linux) e alimentício (1 ano e 6 meses em ERP TOTVS). Desenvolvo soluções web práticas focadas em agilizar o atendimento e os processos comerciais.
+      </p>
+      <div class="botoes-contato">
+        <a id="linkWhats" href="#" target="_blank" class="btn btn-whats">Chamar no WhatsApp</a>
+        <a id="linkPerfilGit" href="#" target="_blank" class="btn btn-github">Perfil no GitHub</a>
+        <a href="mailto:ricardomonteirow@gmail.com" class="btn btn-email">Enviar E-mail</a>
+      </div>
+    </header>
 
-    <form id="formOrcamento" class="box-orcamento">
-      <input type="text" id="clienteNome" placeholder="Seu nome (Ex: Carlos)*" required />
-      <input type="text" id="clienteCarro" placeholder="Carro e Ano (Ex: Gol G5 2012) *" required />
-      <input type="text" id="clientePeca" placeholder="Qual peça você precisa? *" required />
+    <h2 class="secao-titulo">Projetos em Destaque</h2>
+    <div class="grid-projetos">
       
-      <p id="mensagemErro" class="erro-oculto">Preencha o veículo e a peça para continuar.</p>
-      
-      <button type="submit">Pedir Orçamento no WhatsApp</button>
-    </form>
-  </header>
+      <div class="card-projeto">
+        <div>
+          <h3>Auto Peças & Mecânica RM</h3>
+          <p>Landing page comercial com catálogo interativo de peças (SVG), gerador inteligente de orçamentos diretos para WhatsApp e indicador automático de horário.</p>
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">API WhatsApp</span>
+            <span class="tag">Catálogo Interativo</span>
+          </div>
+        </div>
+        <div class="links-projeto">
+          <a href="https://modelo-autopecas-goiania.ricardomonteiro.workers.dev" target="_blank" class="link-demo">Ver Site no Ar</a>
+          <a id="linkRepo1" href="#" target="_blank" class="link-codigo">Ver Código</a>
+        </div>
+      </div>
 
-  <main class="container">
-    <section class="cards">
-      <div class="card" role="button" tabindex="0" data-categoria="linha-leve" aria-haspopup="dialog">
-        <h3>Linha Leve e Utilitários</h3>
-        <p>Filtros, correias, pastilhas de freio, amortecedores e itens de revisão periódica.</p>
-        <span class="card-link">Ver itens disponíveis →</span>
+      <div class="card-projeto">
+        <div>
+          <h3>Controle de Estoque — Autopeças</h3>
+          <p>Sistema completo de gestão (ERP) com controle de compras, vendas, caixa, busca inteligente (autocomplete) e emissão de DANFE com cálculo de ICMS.</p>
+          <div class="tags">
+            <span class="tag">JavaScript ES6</span>
+            <span class="tag">Gestão ERP</span>
+            <span class="tag">Regras Fiscais (ICMS)</span>
+            <span class="tag">LocalStorage</span>
+          </div>
+        </div>
+        <div class="links-projeto">
+         <a href="https://controle-estoque-autopecas.ricardomonteiro.workers.dev" target="_blank" class="link-demo">Ver Site no Ar</a>
+          <a id="linkRepo2" href="#" target="_blank" class="link-codigo">Ver Código</a>
+        </div>
       </div>
-      <div class="card" role="button" tabindex="0" data-categoria="injecao-eletrica" aria-haspopup="dialog">
-        <h3>Injeção e Elétrica</h3>
-        <p>Sensores, bobinas, velas, baterias e componentes eletrônicos com garantia.</p>
-        <span class="card-link">Ver itens disponíveis →</span>
-      </div>
-      <div class="card card-atendimento" role="button" tabindex="0">
-        <h3>Atendimento Ágil</h3>
-        <p>Cotação rápida pelo WhatsApp com verificação pelo código original ou chassi.</p>
-        <span class="card-link">Iniciar cotação agora →</span>
-      </div>
-    </section>
-  </main>
 
-  <dialog id="modalCatalogo" class="modal-catalogo" aria-labelledby="tituloCatalogo">
-    <div class="modal-conteudo">
-      <button type="button" class="modal-fechar" aria-label="Fechar catálogo">&times;</button>
-      <h2 id="tituloCatalogo"></h2>
-      <div id="itensCatalogo" class="itens-catalogo"></div>
     </div>
-  </dialog>
 
-  <footer class="rodape">
-    <p>Auto Peças & Mecânica RM — Goiânia / GO</p>
-    <p>© 2026 Auto Peças &amp; Mecânica RM. Todos os direitos reservados. | Desenvolvido por <a href="https://ricardomonteirodev.github.io/" target="_blank" rel="noopener noreferrer">Ricardo Monteiro Borges</a></p>
-  </footer>
+    <h2 class="secao-titulo">Habilidades Técnicas & Negócio</h2>
+    <div class="skills-box">
+      <div class="skills-lista">
+        <span class="skill-item">HTML5 & CSS3 Responsivo</span>
+        <span class="skill-item">JavaScript (DOM & Lógica)</span>
+        <span class="skill-item">Git & GitHub Pages</span>
+        <span class="skill-item">Cloudflare Workers/Pages</span>
+        <span class="skill-item">ERP TOTVS & Linux</span>
+        <span class="skill-item">Rotinas Fiscais (NF-e / GNRE)</span>
+        <span class="skill-item">Controle de Estoque & Autopeças</span>
+      </div>
+    </div>
 
-  <script src="script.js"></script>
+    <footer>
+      <p>Goiânia, Goiás — Disponível para oportunidades CLT e projetos Freelance.</p>
+    </footer>
+  </div>
+
+  <script>
+    const usuarioGit = "ricardomonteirodev";
+    const baseGit = "https://github.com/" + usuarioGit;
+
+    document.getElementById("linkWhats").href = "https://wa.me/5562982614765";
+    document.getElementById("linkPerfilGit").href = baseGit;
+    document.getElementById("linkRepo1").href = baseGit + "/modelo-autopecas-goiania";
+    document.getElementById("linkRepo2").href = baseGit + "/controle-estoque-autopecas";
+  </script>
+
 </body>
 </html>
-

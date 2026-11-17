@@ -1,34 +1,44 @@
-# 💻 Portfólio — Ricardo Monteiro
+# 💻 Portfólio Profissional — Ricardo Monteiro Borges
 
-Bem-vindo ao repositório do meu portfólio profissional! Este projeto reúne minhas principais aplicações web, landing pages e sistemas desenvolvidos com foco em regras de negócio reais, desempenho e experiência do usuário.
+Repositório oficial do meu portfólio web, desenvolvido para apresentar minhas soluções digitais, sistemas de gestão e landing pages focadas em regras de negócio reais, desempenho e experiência do usuário.
 
-🔗 **Acesse o portfólio online:** [https://github.io](https://github.io)
+🔗 **Acesse o portfólio online:** [Clique aqui para visualizar o site no ar](https://github.io)
+
+---
+
+## 🎯 Objetivo & Posicionamento
+Unindo formação em **Desenvolvimento Web** com experiência prática nas áreas de **Logística, Faturamento e Setor Automotivo**, este portfólio reúne projetos que resolvem problemas reais do dia a dia comercial e operacional, transformando processos manuais em interfaces rápidas, intuitivas e precisas.
 
 ---
 
 ## 🚀 Projetos em Destaque
 
-### 1. Controle de Estoque — Autopeças (Mini-ERP & Fiscal)
-Sistema completo de gestão comercial e fiscal para lojas de autopeças, com integração em tempo real entre compras, vendas, estoque, fluxo de caixa e emissão de notas fiscais fictícias (DANFE) com cálculo de ICMS "por dentro".
-* **Tecnologias:** HTML5, CSS3, JavaScript ES6, LocalStorage.
-
-### 2. Auto Peças & Mecânica RM
-Landing page comercial desenvolvida para conversão rápida de clientes, contando com gerador inteligente de orçamentos diretos para WhatsApp e indicador dinâmico de horário de funcionamento.
-* **Tecnologias:** HTML5, CSS3, JavaScript, API WhatsApp.
+* **📦 Controle de Estoque — Autopeças (Mini-ERP & Fiscal):** Sistema completo de gestão comercial e fiscal com controle de compras, vendas, fluxo de caixa, busca inteligente (autocomplete) e emissão de notas fiscais fictícias (DANFE) com cálculo de ICMS "por dentro".
+* **🚗 Auto Peças & Mecânica RM:** Landing page comercial de alta conversão com gerador inteligente de orçamentos diretos para WhatsApp e indicador dinâmico de horário de funcionamento.
 
 ---
 
-## 🛠️ Tecnologias & Ferramentas
-* **Front-end:** HTML5, CSS3, JavaScript (ES6+), Manipulação de DOM.
-* **Versionamento & Deploy:** Git, GitHub, GitHub Pages, Cloudflare Pages.
+## 🛠️ Tecnologias Utilizadas
+
+* **HTML5:** Estruturação semântica e otimização para SEO.
+* **CSS3:** Estilização moderna com Flexbox, CSS Grid, variáveis de cores e design responsivo (Mobile-First).
+* **JavaScript (ES6+):** Manipulação dinâmica do DOM, regras de negócio, integração com APIs e persistência via `LocalStorage`.
+* **Git, GitHub Pages & Cloudflare:** Versionamento de código, hospedagem e deploy contínuo.
 
 ---
 
-## 📫 Contato
+## 📂 Estrutura de Arquivos
 
-Entre em contato para oportunidades, projetos freelance ou dúvidas:
+```text
+└── index.html   # Estrutura principal, estilização e scripts do portfólio
+```
 
-* 📱 **WhatsApp:** [(62) 9 8261-4765](https://wa.me.)
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Ricardo Monteiro Borges**  
+*Formado em Desenvolvimento Web | Experiência em Logística, Faturamento e Setor Automotivo*
+
 * 📧 **E-mail:** [ricardomonteirow@gmail.com](mailto:ricardomonteirow@gmail.com)
-* 💻 **Portfólio:** [ricardomonteirodev.github.io](https://github.io)
-* 🐙 **GitHub:** [@ricardomonteirodev](https://github.com)
+* 📱 **WhatsApp:** [(62) 9 8261-4765](https://wa.me.)
